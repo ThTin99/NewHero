@@ -1,0 +1,145 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feead620010925642a85d2b5e1780c7c, type: 3}
+  m_Name: Map1Data
+  m_EditorClassIdentifier: 
+  maps:
+  - obstacles:
+    - {fileID: -6933985040580793496, guid: e80a58dadb30b0248adf53e295a56716, type: 3}
+    - {fileID: -4708244856791888689, guid: 167b345ccbc3fc141bb51852d7c89c7e, type: 3}
+    - {fileID: 1905295186177592455, guid: 8ebaa47bbf71ff84c92ae961ec16edd6, type: 3}
+    - {fileID: 4690304873577062175, guid: 6d112310653b4704886ff371f2a1b47b, type: 3}
+    - {fileID: -7821892632664308472, guid: 74e3207751258574e977da02f87682ff, type: 3}
+    - {fileID: -2066681004190475975, guid: b8e65b08f29f51149b9787dbb0951dc2, type: 3}
+    - {fileID: 9200920191957445389, guid: 4a8bd86efb695ec4bb92e7d0a4e19cfa, type: 3}
+    - {fileID: 5807908829837148416, guid: f5dca594c1ae6d4498760c2cd3f6c63f, type: 3}
+    - {fileID: 2949417261605914305, guid: f8aff4d2c109db440b7e3102de90d603, type: 3}
+    - {fileID: -6933985040580793496, guid: e80a58dadb30b0248adf53e295a56716, type: 3}
+    - {fileID: 5105477416781819630, guid: 7b1c4eba14a2327489f1bf8383cf9e60, type: 3}
+    - {fileID: -7666740100918320983, guid: 9f0864a713ba03f4a9d81fd7d2dc9586, type: 3}
+    - {fileID: -319916932470064258, guid: a629b29ebee8243438a0cc115316ce07, type: 3}
+    - {fileID: -3665892965381009694, guid: 8e0245a0f0d901d42a59fe7b99bb1baf, type: 3}
+    - {fileID: -7821892632664308472, guid: 74e3207751258574e977da02f87682ff, type: 3}
+    - {fileID: 2441993969507009021, guid: b038a4da65e51c44d9066bbd14e4f4b6, type: 3}
+    - {fileID: 3227046616991521426, guid: a53d33f1fa79fc14986a37020e376680, type: 3}
+    - {fileID: -796483475746791063, guid: 011600d706abef8429994a3768bd00eb, type: 3}
+    - {fileID: -6676090458098851682, guid: c4b80986677ba2f47a529c00f39cc099, type: 3}
+    - {fileID: -7821892632664308472, guid: 74e3207751258574e977da02f87682ff, type: 3}
+    - {fileID: 300727778811869168, guid: 4cd2bde7cbca35c468f8c6ed3257b8fa, type: 3}
+    - {fileID: -6933985040580793496, guid: e80a58dadb30b0248adf53e295a56716, type: 3}
+    - {fileID: -8015125247949266491, guid: 024f0d62066381c42bed333f3636e4d1, type: 3}
+    - {fileID: 1199032258294520652, guid: a8593811a5f1a17499fd37bddeec5db4, type: 3}
+    - {fileID: -7821892632664308472, guid: 74e3207751258574e977da02f87682ff, type: 3}
+    spawnPositions:
+    - positions:
+      - {x: 0, y: 0, z: 3}
+      - {x: 5, y: 0, z: 3}
+      - {x: -5, y: 0, z: 3}
+    - positions:
+      - {x: -6.4, y: 0, z: 6.4}
+      - {x: 7.4, y: 0, z: 6.4}
+      - {x: 0.35, y: 0, z: 0.35}
+    - positions:
+      - {x: 5.9, y: 0, z: -7}
+      - {x: -3.9, y: 0, z: -7}
+      - {x: -8, y: 0, z: 12}
+      - {x: 8.5, y: 0, z: 12}
+    - positions:
+      - {x: 0, y: 0, z: 3}
+    - positions:
+      - {x: 0, y: 0, z: 0}
+    - positions:
+      - {x: 0, y: 0, z: 9}
+      - {x: 0, y: 0, z: 4}
+      - {x: 8, y: 0, z: -3}
+      - {x: -8, y: 0, z: -3}
+    - positions:
+      - {x: 0, y: 0, z: 8}
+      - {x: -5, y: 0, z: -10}
+      - {x: 5, y: 0, z: -10}
+      - {x: 5, y: 0, z: -10}
+    - positions:
+      - {x: 0, y: 0, z: 8}
+      - {x: 0, y: 0, z: 3}
+      - {x: -8, y: 0, z: -13}
+      - {x: 8.5, y: 0, z: -13}
+    - positions:
+      - {x: 0.5, y: 0, z: 2.5}
+      - {x: 3.5, y: 0, z: -3}
+      - {x: -2.5, y: 0, z: -3}
+    - positions:
+      - {x: 0, y: 0, z: 5}
+    - positions:
+      - {x: 0, y: 0, z: 3}
+    - positions:
+      - {x: -6, y: 0, z: 4}
+      - {x: 6, y: 0, z: 4}
+    - positions:
+      - {x: 5, y: 0, z: 0}
+      - {x: -5, y: 0, z: 0}
+      - {x: 0, y: 0, z: 0}
+      - {x: 5, y: 0, z: 5}
+      - {x: -5, y: 0, z: 5}
+    - positions:
+      - {x: -5.3, y: 0, z: -1.3}
+      - {x: -5.3, y: 0, z: 2}
+      - {x: 5.3, y: 0, z: 3.3}
+      - {x: 5.3, y: 0, z: -1.3}
+      - {x: 5.3, y: 0, z: 2}
+    - positions: []
+    - positions:
+      - {x: -9, y: 0, z: -23}
+      - {x: 9, y: 0, z: -23}
+      - {x: -9, y: 0, z: 12}
+      - {x: 9, y: 0, z: 12}
+      - {x: -9, y: 0, z: 4.5}
+      - {x: 9, y: 0, z: 4.5}
+    - positions:
+      - {x: -0.7, y: 0, z: 6}
+      - {x: -3, y: 0, z: 4}
+      - {x: 3, y: 0, z: 4}
+      - {x: -0.7, y: 0, z: 8}
+      - {x: -6, y: 0, z: 8}
+      - {x: 6, y: 0, z: 8}
+    - positions:
+      - {x: 0.7, y: 0, z: 4}
+      - {x: -3.7, y: 0, z: 1.1}
+      - {x: 3.7, y: 0, z: 1.1}
+      - {x: -3.7, y: 0, z: -4.5}
+      - {x: 3.7, y: 0, z: -4.5}
+      - {x: -6, y: 0, z: 12}
+      - {x: 6, y: 0, z: 12}
+    - positions:
+      - {x: 5, y: 0, z: 4}
+      - {x: -5, y: 0, z: 4}
+    - positions:
+      - {x: 0, y: 0, z: 5}
+    - positions:
+      - {x: 0.7, y: 0, z: 8}
+      - {x: 3.7, y: 0, z: 3}
+      - {x: -3.7, y: 0, z: 3}
+    - positions:
+      - {x: 0, y: 0, z: 3}
+      - {x: -5, y: 0, z: 3}
+      - {x: 5, y: 0, z: 3}
+      - {x: 0, y: 0, z: 12}
+    - positions:
+      - {x: -4.5, y: 0, z: -4}
+      - {x: 4.5, y: 0, z: 3}
+      - {x: 0, y: 0, z: -0.6}
+    - positions:
+      - {x: 0, y: 0, z: 4}
+      - {x: -5.5, y: 0, z: 4}
+      - {x: 0, y: 0, z: -2}
+      - {x: 5.5, y: 0, z: -2}
+    - positions:
+      - {x: 0, y: 0, z: 5}

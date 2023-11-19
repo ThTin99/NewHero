@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1145643986692693535
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1145643986692693521}
+  - component: {fileID: 1145643986692693520}
+  m_Layer: 0
+  m_Name: Pickup 10000 gold
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1145643986692693521
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1145643986692693535}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1145643986692693520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1145643986692693535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: Chinese
+    Text: "\u62FE\u53D6 10000 \u91D1"
+    Object: {fileID: 0}
+  - Language: English
+    Text: Pickup 10000 gold
+    Object: {fileID: 0}
+  - Language: Korean
+    Text: "10000\uACE8\uB4DC \uD68D\uB4DD"
+    Object: {fileID: 0}
+  - Language: Russian
+    Text: "\u041F\u0438\u043A\u0430\u043F 10000 \u0437\u043E\u043B\u043E\u0442\u0430"
+    Object: {fileID: 0}
+  - Language: German
+    Text: Sammle 10000 Gold
+    Object: {fileID: 0}
+  - Language: Indonesian
+    Text: Ambil 10000 emas
+    Object: {fileID: 0}
+  - Language: Vietnamese
+    Text: "Nh\u1EB7t 10000 v\xE0ng"
+    Object: {fileID: 0}
+  - Language: Japanese
+    Text: "\u30D4\u30C3\u30AF\u30A2\u30C3\u30D710000\u30B4\u30FC\u30EB\u30C9"
+    Object: {fileID: 0}

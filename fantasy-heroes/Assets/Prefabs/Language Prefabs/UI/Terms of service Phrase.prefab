@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8918458291142950316
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8918458291142950306}
+  - component: {fileID: 8918458291142950307}
+  m_Layer: 0
+  m_Name: Terms of service Phrase
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8918458291142950306
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8918458291142950316}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8918458291142950307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8918458291142950316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: Chinese
+    Text: "\u670D\u52A1\u6761\u6B3E"
+    Object: {fileID: 0}
+  - Language: English
+    Text: Terms of service
+    Object: {fileID: 0}
+  - Language: Korean
+    Text: "\uC11C\uBE44\uC2A4 \uC57D\uAD00"
+    Object: {fileID: 0}
+  - Language: Russian
+    Text: "\u0423\u0441\u043B\u043E\u0432\u0438\u044F \u043E\u0431\u0441\u043B\u0443\u0436\u0438\u0432\u0430\u043D\u0438\u044F"
+    Object: {fileID: 0}
+  - Language: German
+    Text: Nutzungsbedingungen
+    Object: {fileID: 0}
+  - Language: Indonesian
+    Text: Persyaratan layanan
+    Object: {fileID: 0}
+  - Language: Vietnamese
+    Text: "\u0110i\u1EC1u kho\u1EA3n d\u1ECBch v\u1EE5"
+    Object: {fileID: 0}
+  - Language: Japanese
+    Text: "\u5229\u7528\u898F\u7D04"
+    Object: {fileID: 0}

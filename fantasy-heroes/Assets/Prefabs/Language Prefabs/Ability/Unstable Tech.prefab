@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1145643986692693535
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1145643986692693521}
+  - component: {fileID: 1145643986692693520}
+  m_Layer: 0
+  m_Name: Unstable Tech
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1145643986692693521
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1145643986692693535}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1145643986692693520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1145643986692693535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: Chinese
+    Text: "\u4F60\u7684\u653B\u51FB\u5728\u4E00\u5B9A\u8303\u56F4\u5185\u968F\u673A"
+    Object: {fileID: 0}
+  - Language: English
+    Text: Your Attack is randomize within a range
+    Object: {fileID: 0}
+  - Language: Korean
+    Text: "\uBC94\uC704 \uB0B4\uC5D0\uC11C \uACF5\uACA9\uC774 \uBB34\uC791\uC704\uD654\uB429\uB2C8\uB2E4."
+    Object: {fileID: 0}
+  - Language: Russian
+    Text: "\u0412\u0430\u0448\u0430 \u0430\u0442\u0430\u043A\u0430 \u0441\u043B\u0443\u0447\u0430\u0439\u043D\u0430
+      \u0432 \u043F\u0440\u0435\u0434\u0435\u043B\u0430\u0445 \u0434\u0438\u0430\u043F\u0430\u0437\u043E\u043D\u0430"
+    Object: {fileID: 0}
+  - Language: German
+    Text: "Dein Angriff wird innerhalb einer Reichweite zuf\xE4llig ausgew\xE4hlt"
+    Object: {fileID: 0}
+  - Language: Indonesian
+    Text: Serangan Anda diacak dalam jangkauan
+    Object: {fileID: 0}
+  - Language: Vietnamese
+    Text: "Cu\u1ED9c t\u1EA5n c\xF4ng c\u1EE7a b\u1EA1n l\xE0 ng\u1EABu nhi\xEAn
+      trong m\u1ED9t ph\u1EA1m vi"
+    Object: {fileID: 0}
+  - Language: Japanese
+    Text: "\u3042\u306A\u305F\u306E\u653B\u6483\u306F\u7BC4\u56F2\u5185\u3067\u30E9\u30F3\u30C0\u30E0\u5316\u3055\u308C\u307E\u3059"
+    Object: {fileID: 0}

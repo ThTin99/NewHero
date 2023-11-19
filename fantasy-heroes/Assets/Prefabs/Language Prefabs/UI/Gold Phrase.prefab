@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4333969749081004121
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4333969749081004119}
+  - component: {fileID: 4333969749081004118}
+  m_Layer: 0
+  m_Name: Gold Phrase
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4333969749081004119
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4333969749081004121}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4333969749081004118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4333969749081004121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: Chinese
+    Text: "\u91D1\u5B50"
+    Object: {fileID: 0}
+  - Language: English
+    Text: Gold
+    Object: {fileID: 0}
+  - Language: Korean
+    Text: "\uAE08"
+    Object: {fileID: 0}
+  - Language: Russian
+    Text: "\u0417\u043E\u043B\u043E\u0442\u043E"
+    Object: {fileID: 0}
+  - Language: German
+    Text: Gold
+    Object: {fileID: 0}
+  - Language: Indonesian
+    Text: Emas
+    Object: {fileID: 0}
+  - Language: Vietnamese
+    Text: "\u0417\u043E\u043B\u043E\u0442\u043E"
+    Object: {fileID: 0}
+  - Language: Japanese
+    Text: "\u30B4\u30FC\u30EB\u30C9"
+    Object: {fileID: 0}

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6fdf49509c1441428add0a5ec34b622, type: 3}
+  m_Name: Call of Cresent
+  m_EditorClassIdentifier: 
+  ItemName: Call of Cresent
+  ItemSprite: {fileID: 21300000, guid: 86f26d1801a474506a9d618fc1d0f246, type: 3}
+  Rank: 4
+  Description: 
+  WorldObjectPrefab: {fileID: 0}
+  Slot: 666
+  MinimumStrength: 0
+  MinimumAgility: 0
+  MinimumDefense: 0
+  EquippedEffects: []
+  equiped: 0
+  level: 1
+  UpgradeCost: 10000
+  HitSounds: []
+  SwingSounds: []
+  Stats:
+    Speed: 2
+    MinimumDamage: 50
+    MaximumDamage: 53
+    Crit: 30
+  AttackEffects: []

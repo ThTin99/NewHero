@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1145643986692693535
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1145643986692693521}
+  - component: {fileID: 1145643986692693520}
+  m_Layer: 0
+  m_Name: Full charge
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1145643986692693521
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1145643986692693535}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1145643986692693520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1145643986692693535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: Chinese
+    Text: "\u751F\u547D\u503C\\u003e80%\u65F6\uFF0C\u653B\u51FB\u529B\u63D0\u534760%"
+    Object: {fileID: 0}
+  - Language: English
+    Text: When Health point > 80%, Attack increase by 60%
+    Object: {fileID: 0}
+  - Language: Korean
+    Text: "\uCCB4\uB825\uC774 80% \uC774\uC0C1\uC77C \uB54C \uACF5\uACA9\uB825 60%
+      \uC99D\uAC00"
+    Object: {fileID: 0}
+  - Language: Russian
+    Text: "\u041A\u043E\u0433\u0434\u0430 \u0437\u0434\u043E\u0440\u043E\u0432\u044C\u0435\\u003e
+      80%, \u0430\u0442\u0430\u043A\u0430 \u0443\u0432\u0435\u043B\u0438\u0447\u0438\u0432\u0430\u0435\u0442\u0441\u044F
+      \u043D\u0430 60%."
+    Object: {fileID: 0}
+  - Language: German
+    Text: "Wenn Lebenspunkt \\u003e 80 %, Angriffserh\xF6hung um 60 %"
+    Object: {fileID: 0}
+  - Language: Indonesian
+    Text: Saat Hit point > 80%, Attack meningkat 60%
+    Object: {fileID: 0}
+  - Language: Vietnamese
+    Text: "Khi m\xE1u > 80%, t\u1EA5n c\xF4ng t\u0103ng 60%"
+    Object: {fileID: 0}
+  - Language: Japanese
+    Text: "\u30D8\u30EB\u30B9\u30DD\u30A4\u30F3\u30C8\u304C80\uFF05\u3092\u8D85\u3048\u308B\u3068\u3001\u653B\u6483\u529B\u304C60\uFF05\u5897\u52A0\u3057\u307E\u3059"
+    Object: {fileID: 0}

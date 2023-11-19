@@ -1,0 +1,186 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 536386faa55d7854bbef181f87f1b0e4, type: 3}
+  m_Name: Talent Database
+  m_EditorClassIdentifier: 
+  TalentUnits:
+  - Name: Health Up
+    TalentType: 0
+    TalentIcon: {fileID: 21300000, guid: 4d884a85224974b57956b27413aad943, type: 3}
+    Description: Increase max Hp
+    StatModifier:
+      ModifierMode: 1
+      Stats:
+        level: 0
+        health: 100
+        strength: 0
+        defense: 0
+        agility: 0
+        crit: 0
+        elementalProtection: 
+        elementalBoosts: 
+        healingEffectiveness: 0
+        attackSpeedBoost: 0
+        movementSpeedBoost: 0
+        upgradeCost: 0
+  - Name: Move Speed Up
+    TalentType: 1
+    TalentIcon: {fileID: 21300000, guid: 6673df9812a5f47feabccf8559692b0c, type: 3}
+    Description: Increase movement speed
+    StatModifier:
+      ModifierMode: 0
+      Stats:
+        level: 0
+        health: 0
+        strength: 0
+        defense: 0
+        agility: 5
+        crit: 0
+        elementalProtection: 
+        elementalBoosts: 
+        healingEffectiveness: 0
+        attackSpeedBoost: 0
+        movementSpeedBoost: 0
+        upgradeCost: 0
+  - Name: Rapid Fire
+    TalentType: 2
+    TalentIcon: {fileID: 21300000, guid: 6325706bbc2f942d293bc3cc86f9e00e, type: 3}
+    Description: Increase attack speed
+    StatModifier:
+      ModifierMode: 0
+      Stats:
+        level: 0
+        health: 0
+        strength: 0
+        defense: 0
+        agility: 0
+        crit: 0
+        elementalProtection: 
+        elementalBoosts: 
+        healingEffectiveness: 0
+        attackSpeedBoost: 5
+        movementSpeedBoost: 0
+        upgradeCost: 0
+  - Name: Level Up Hp Recovery Up
+    TalentType: 3
+    TalentIcon: {fileID: 21300000, guid: b89196aedae0b4fa2bc24c890cf46e97, type: 3}
+    Description: Increase amout of Hp recovery when leveling up
+    StatModifier:
+      ModifierMode: 0
+      Stats:
+        level: 0
+        health: 0
+        strength: 0
+        defense: 0
+        agility: 0
+        crit: 0
+        elementalProtection: 
+        elementalBoosts: 
+        healingEffectiveness: 0
+        attackSpeedBoost: 0
+        movementSpeedBoost: 0
+        upgradeCost: 0
+  - Name: Reinforced Armor
+    TalentType: 4
+    TalentIcon: {fileID: 21300000, guid: e92254a56e85b4894bdfc0c138438476, type: 3}
+    Description: Increase defensive
+    StatModifier:
+      ModifierMode: 0
+      Stats:
+        level: 0
+        health: 0
+        strength: 0
+        defense: 5
+        agility: 0
+        crit: 0
+        elementalProtection: 
+        elementalBoosts: 
+        healingEffectiveness: 0
+        attackSpeedBoost: 0
+        movementSpeedBoost: 0
+        upgradeCost: 0
+  - Name: Repair Kit
+    TalentType: 5
+    TalentIcon: {fileID: 21300000, guid: 576fc5064348447e0b230287640d3b27, type: 3}
+    Description: Increase amount of Hp recovery
+    StatModifier:
+      ModifierMode: 0
+      Stats:
+        level: 0
+        health: 0
+        strength: 0
+        defense: 0
+        agility: 0
+        crit: 0
+        elementalProtection: 
+        elementalBoosts: 
+        healingEffectiveness: 5
+        attackSpeedBoost: 0
+        movementSpeedBoost: 0
+        upgradeCost: 0
+  - Name: Destructive Force
+    TalentType: 6
+    TalentIcon: {fileID: 21300000, guid: 110152c81329241e8ba95a93fafd44bc, type: 3}
+    Description: Increase attack damage
+    StatModifier:
+      ModifierMode: 0
+      Stats:
+        level: 0
+        health: 0
+        strength: 0
+        defense: 0
+        agility: 0
+        crit: 0
+        elementalProtection: 
+        elementalBoosts: 
+        healingEffectiveness: 0
+        attackSpeedBoost: 0
+        movementSpeedBoost: 0
+        upgradeCost: 0
+  - Name: Crit Damage Up
+    TalentType: 7
+    TalentIcon: {fileID: 21300000, guid: 34afb4f1aeb554a35b3bff429de77455, type: 3}
+    Description: Increase crit damage
+    StatModifier:
+      ModifierMode: 0
+      Stats:
+        level: 0
+        health: 0
+        strength: 0
+        defense: 0
+        agility: 0
+        crit: 0
+        elementalProtection: 
+        elementalBoosts: 
+        healingEffectiveness: 0
+        attackSpeedBoost: 0
+        movementSpeedBoost: 0
+        upgradeCost: 0
+  - Name: Crit Rate Up
+    TalentType: 8
+    TalentIcon: {fileID: 21300000, guid: aab789accb19b4741bc4fa2580926b9b, type: 3}
+    Description: Increase crit rate
+    StatModifier:
+      ModifierMode: 0
+      Stats:
+        level: 0
+        health: 0
+        strength: 0
+        defense: 0
+        agility: 0
+        crit: 5
+        elementalProtection: 
+        elementalBoosts: 
+        healingEffectiveness: 0
+        attackSpeedBoost: 0
+        movementSpeedBoost: 0
+        upgradeCost: 0

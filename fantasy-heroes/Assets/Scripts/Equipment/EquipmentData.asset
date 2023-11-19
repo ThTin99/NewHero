@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d04ffb482da78e4ebb9c706e72fee98, type: 3}
+  m_Name: EquipmentData
+  m_EditorClassIdentifier: 
+  listEquipment:
+  - EquipmentId: 0
+    name: BigBoy
+    Img: {fileID: 21300000, guid: 169d45648e00348038299fc345aa6b4f, type: 3}
+    type: 4
+    Rarity: 3
+    Pos: 0
+    On: 1
+    Lv: 12
+    attack: 10
+    health: 0
+    armor: 0
+    attackSpeed: 5
+    critdmg: 0
+  - EquipmentId: 1
+    name: Turtle
+    Img: {fileID: 21300000, guid: c28d54c4733dc4fc7bedc4189f66bfbc, type: 3}
+    type: 2
+    Rarity: 1
+    Pos: 1
+    On: 1
+    Lv: 10
+    attack: 0
+    health: 0
+    armor: 10
+    attackSpeed: 0
+    critdmg: 0
+  - EquipmentId: 2
+    name: DoubleBlade
+    Img: {fileID: 21300000, guid: 455d317bd36c5444483f77940660f34b, type: 3}
+    type: 2
+    Rarity: 2
+    Pos: 0
+    On: 0
+    Lv: 10
+    attack: 0
+    health: 0
+    armor: 10
+    attackSpeed: 0
+    critdmg: 0
+  ListMaterial:
+  - MaterialId: 0
+    Namematerial: SwordUpdate
+    Amount: 5
+    ImgMaterial: {fileID: 21300000, guid: 413710b631bd5493ebbf1a29b2d82eb3, type: 3}
+  - MaterialId: 1
+    Namematerial: ShieldUpdate
+    Amount: 20
+    ImgMaterial: {fileID: 21300000, guid: b3d8dbe835c404179842f9f9595f2bf0, type: 3}

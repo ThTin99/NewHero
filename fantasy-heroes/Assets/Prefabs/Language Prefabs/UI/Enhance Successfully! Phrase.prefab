@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4290474995640564965
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4290474995640564971}
+  - component: {fileID: 4290474995640564970}
+  m_Layer: 0
+  m_Name: Enhance Successfully! Phrase
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4290474995640564971
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4290474995640564965}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4290474995640564970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4290474995640564965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: Chinese
+    Text: "\u63D0\u5347\u6210\u529F\uFF01"
+    Object: {fileID: 0}
+  - Language: English
+    Text: Enhance Successfully!
+    Object: {fileID: 0}
+  - Language: Korean
+    Text: "\uAC15\uD654 \uC131\uACF5!"
+    Object: {fileID: 0}
+  - Language: Russian
+    Text: "\u0423\u0441\u043F\u0435\u0448\u043D\u043E \u0443\u043B\u0443\u0447\u0448\u0430\u0439\u0442\u0435!"
+    Object: {fileID: 0}
+  - Language: German
+    Text: Erfolgreich verbessern!
+    Object: {fileID: 0}
+  - Language: Indonesian
+    Text: Tingkatkan Berhasil!
+    Object: {fileID: 0}
+  - Language: Vietnamese
+    Text: "N\xE2ng c\u1EA5p th\xE0nh c\xF4ng!"
+    Object: {fileID: 0}
+  - Language: Japanese
+    Text: "\u6B63\u5E38\u306B\u5F37\u5316\u3057\u307E\u3059\uFF01"
+    Object: {fileID: 0}

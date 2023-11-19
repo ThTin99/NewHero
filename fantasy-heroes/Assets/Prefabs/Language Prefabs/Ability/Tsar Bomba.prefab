@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1145643986692693535
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1145643986692693521}
+  - component: {fileID: 1145643986692693520}
+  m_Layer: 0
+  m_Name: Tsar Bomba
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1145643986692693521
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1145643986692693535}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1145643986692693520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1145643986692693535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: Chinese
+    Text: "\u964D\u4F4E 20% \u653B\u51FB\u901F\u5EA6\u4EE5\u589E\u52A0 50% \u4F24\u5BB3"
+    Object: {fileID: 0}
+  - Language: English
+    Text: Cut 20% attack speed to increase 50% damage
+    Object: {fileID: 0}
+  - Language: Korean
+    Text: "\uACF5\uACA9 \uC18D\uB3C4 20% \uAC10\uC18C\uB85C \uB370\uBBF8\uC9C0 50%
+      \uC99D\uAC00"
+    Object: {fileID: 0}
+  - Language: Russian
+    Text: "\u0423\u043C\u0435\u043D\u044C\u0448\u0438\u0442\u0435 \u0441\u043A\u043E\u0440\u043E\u0441\u0442\u044C
+      \u0430\u0442\u0430\u043A\u0438 \u043D\u0430 20%, \u0447\u0442\u043E\u0431\u044B
+      \u0443\u0432\u0435\u043B\u0438\u0447\u0438\u0442\u044C \u0443\u0440\u043E\u043D
+      \u043D\u0430 50%."
+    Object: {fileID: 0}
+  - Language: German
+    Text: "Verringern Sie die Angriffsgeschwindigkeit um 20 %, um den Schaden um
+      50 % zu erh\xF6hen"
+    Object: {fileID: 0}
+  - Language: Indonesian
+    Text: "Potong 20% \u200B\u200Bkecepatan serangan untuk meningkatkan 50% kerusakan"
+    Object: {fileID: 0}
+  - Language: Vietnamese
+    Text: "Gi\u1EA3m 20% t\u1ED1c \u0111\u1ED9 \u0111\xE1nh \u0111\u1EC3 t\u0103ng
+      50% s\xE1t th\u01B0\u01A1ng"
+    Object: {fileID: 0}
+  - Language: Japanese
+    Text: "\u653B\u6483\u901F\u5EA6\u309220\uFF05\u30AB\u30C3\u30C8\u3057\u3066\u3001\u30C0\u30E1\u30FC\u30B8\u309250\uFF05\u5897\u3084\u3057\u307E\u3059"
+    Object: {fileID: 0}

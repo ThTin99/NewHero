@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1145643986692693535
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1145643986692693521}
+  - component: {fileID: 1145643986692693520}
+  m_Layer: 0
+  m_Name: Ice Ball
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1145643986692693521
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1145643986692693535}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1145643986692693520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1145643986692693535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: Chinese
+    Text: "\u53EC\u5524\u4E00\u4E2A\u51B0\u7403\u56F4\u7ED5\u73A9\u5BB6\u65CB\u8F6C\uFF0C\u63A5\u89E6\u654C\u4EBA\u65F6\u51CF\u901F"
+    Object: {fileID: 0}
+  - Language: English
+    Text: Summon an Ice Ball rotate around player, slow enemy on contact
+    Object: {fileID: 0}
+  - Language: Korean
+    Text: "\uD50C\uB808\uC774\uC5B4 \uC8FC\uC704\uB97C \uD68C\uC804\uD558\uB294 \uC544\uC774\uC2A4
+      \uBCFC\uC744 \uC18C\uD658\uD558\uACE0 \uC811\uCD09 \uC2DC \uC801\uC744 \uB290\uB9AC\uAC8C
+      \uD569\uB2C8\uB2E4."
+    Object: {fileID: 0}
+  - Language: Russian
+    Text: "\u0412\u044B\u0437\u0432\u0430\u0442\u044C \u043B\u0435\u0434\u044F\u043D\u043E\u0439
+      \u0448\u0430\u0440, \u0432\u0440\u0430\u0449\u0430\u0442\u044C\u0441\u044F
+      \u0432\u043E\u043A\u0440\u0443\u0433 \u0438\u0433\u0440\u043E\u043A\u0430,
+      \u0437\u0430\u043C\u0435\u0434\u043B\u044F\u0442\u044C \u0432\u0440\u0430\u0433\u0430
+      \u043F\u0440\u0438 \u043A\u043E\u043D\u0442\u0430\u043A\u0442\u0435"
+    Object: {fileID: 0}
+  - Language: German
+    Text: "Beschw\xF6re einen Eisball, der sich um den Spieler dreht, verlangsame
+      den Feind bei Kontakt"
+    Object: {fileID: 0}
+  - Language: Indonesian
+    Text: Panggil Bola Es yang berputar di sekitar pemain, perlambat musuh saat kontak
+    Object: {fileID: 0}
+  - Language: Vietnamese
+    Text: "Tri\u1EC7u h\u1ED3i m\u1ED9t Qu\u1EA3 c\u1EA7u b\u0103ng xoay quanh ng\u01B0\u1EDDi
+      ch\u01A1i, l\xE0m ch\u1EADm k\u1EBB th\xF9 khi ti\u1EBFp x\xFAc"
+    Object: {fileID: 0}
+  - Language: Japanese
+    Text: "\u30A2\u30A4\u30B9\u30DC\u30FC\u30EB\u3092\u53EC\u559A\u3057\u3001\u30D7\u30EC\u30A4\u30E4\u30FC\u306E\u5468\u308A\u3092\u56DE\u8EE2\u3055\u305B\u3001\u63A5\u89E6\u3059\u308B\u3068\u6575\u3092\u9045\u304F\u3057\u307E\u3059"
+    Object: {fileID: 0}
